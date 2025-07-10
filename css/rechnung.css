@@ -1,0 +1,112 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+h2 {
+    color: darkblue;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: blue;
+    margin-top: 20px;
+}
+
+.rechnung-container {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.gesamtsumme {
+    background-color: lightgray;
+    font-weight: bold;
+    border-top: 2px solid blue;
+}
+
+.gesamtsumme td {
+    border-top: 2px solid blue;
+    padding: 12px 8px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.drucken-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.print-button:hover {
+    background-color: darkblue;
+}
+
+.navigation {
+    background-color: lightblue;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+}

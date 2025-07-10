@@ -1,0 +1,114 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    color: darkgreen;
+    text-align: center;
+    background-color: transparent;
+    padding: 15px;
+}
+
+h2 {
+    color: darkblue;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: blue;
+    margin-top: 20px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+label {
+    font-weight: bold;
+    color: darkblue;
+}
+
+div {
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.gericht {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.gericht-name {
+    font-size: 18px;
+    color: darkblue;
+    margin-bottom: 5px;
+}
+
+.gericht-beschreibung {
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.gericht-preis {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.tisch-auswahl {
+    background-color: lightgreen;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.bestellung-box {
+    background-color: lightyellow;
+    border: 2px solid orange;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.navigation {
+    background-color: lightblue;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
